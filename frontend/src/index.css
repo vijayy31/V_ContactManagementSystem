@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@theme{
+  --color-darkBlue: hsl(228, 39%, 23%);
+}
+
+
+@layer components{
+  .container{
+    @apply mx-auto py-1;
+  }
+}
